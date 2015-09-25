@@ -1,0 +1,271 @@
+/****************************************************************************/
+/******************************  Mashitup.Hlp  ******************************/
+/****************************************************************************/
+// This file includes all help topics for Mashitup.
+// Mashitup.Hlp is not included in the project and is not part of the code.
+// Mashitup.Hlp size is XX.X KB.
+
+This file is not designed to be viewed by external programs so as a
+result it may contain some unreadable characters.
+
+/****************************************************************************/
+/******************************  Help topics  *******************************/
+/****************************************************************************/
+
+### New Topic ### - 1 - Hotkeys.
+Hot Keys:
+
+"F1"      - Help.                   "F2"      - About.
+
+"Alt+R"   - Register disk.          "Alt+D"   - Delete disk tag. 
+
+"Alt+H"   - Hot Keys.               "Alt+X"   - Exit Mashitup.
+
+"1".."9"  - Change skins.           "0"       - Basic skin.
+
+"`"       - Set time direction.     Key Del   - Un/Block track.
+
+Key  Up   - One track up.           Key  Down - One track down.
+
+Page Up   - 5 tracks up.            Page Down - 5 tracks down.
+
+Key Home  - First track.            Key End   - Last track.
+
+Key Enter - Play the track.         Key Space - Stop playing.
+
+"P"       - Pause track.            "S"       - Screen Saver.
+
+Key Left  - 5 seconds back.         Key Right - 5 seconds forward.
+
+Key Bkspc - Play repeated.          "?"       - Play random.
+
+"["       - Hammer effect.          "]"       - Word up effect.
+
+"L"       - Un/Lock CD drive.       "E"       - Eject CD disk.
+
+"+"       - Increase volume.        "-"       - Decrease volume.
+
+"*"       - Maximal  volume.        "/"       - Mute     volume.
+
+### New Topic ### - 2 - Mashitup guide 1.
+Mashitup guide:
+
+The bottom toolbar provides different utils as following:
+ввввввввввввввввввввввввввввввввввввввввввввввввввввввввв
+
+ Help          - General help, the same you are reading now.
+
+ About         - Information about Mashitup and its designer.
+
+ Register disk - Activates registration wizard ( look for separate
+
+                 page about registration and deleting wizards ).
+
+ Hot keys      - Displays a page with all shortcut keys.
+
+ Exit          - Leaves Mashitup ( Music may still play ).
+
+
+Mashitup panels:
+вввввввввввввввв
+
+ Status panel   - Provides information about your CD-ROM Drive.
+
+ Equalizer      - Sound mixer; supports up to 4 volume channels.
+
+ Remote control - Displays Mashitup status ( Working, playing
+
+                  or paused ), song playing time and disk total
+
+                  playing time. Time scale may be changed to
+
+                  Remaining time by "`" key.
+
+### New Topic ### - 3 - Mashitup guide 2.
+Mashitup guide:
+
+ Remote control offers also the following buttons:
+
+                  [ЂЃ] - Rewind one song back.
+
+                   […] - Play the selected song ( songs panel ).
+
+                   [„] - Pause the playing song.
+
+                   [†] - Stop  the playing song.
+
+                  [‚ѓ] - Forward one song forward.
+
+                  [??] - Play songs randomally.
+
+                  [‡€] - Repeat the selected song.
+
+             [‹Њ]/[ЌЋ] - Lock/Unlock CD-DRIVE. In locked state
+
+                         CD-ROM in no way can be ejected.
+
+                  [†‰] - Eject CD disk.
+
+
+                  Special effect buttons:
+
+                   [Љ] - Hummer effect. Makes the disk "Jump" as
+
+                         if hummer hits it.
+
+             [word up] - Mixes some last tunes in 6 periodict short
+
+                         shouts. Best to use with drums and voculs.
+
+### New Topic ### - 4 - Mashitup guide 3.
+
+ In the bottom of remote control panel are located playing bar.
+
+ This bar shows the percentage of songs elapsed time out of song
+
+ total time. Mouse click in the area of process bar will cause
+
+ jump in the song to the respective place.
+
+ This bar allows you to control the segments that will be played
+
+ and perform long jumps in the song.
+
+
+    "ммми        "  -->  "мммммк        "
+
+
+ Jumps may be performed even while the music is paused.
+
+
+### New Topic ### - 5 - Mashitup guide 4.
+Mashitup guide:
+
+ Songs panel is divided to 3 horizontal areas:
+
+  Upper  area  - Displays the album name, production year, artist
+
+                 name and genre of the disk.
+
+  Middle area  - Displays for each song its name, time length and
+
+                 physical properties ( Data track, Audio ).
+
+  Bottom area  - Shows disk total playing time.
+
+
+  * Songs have also logical properties:
+
+    Data track - Has dark gray color, and cannot be played.
+
+    Audio song - Has black color and, can be blocked/unblocked
+
+                 using "Delete" Key.
+
+                 Blocked songs, brown colored, will not be played
+
+                 by Mashitup, thus their usage is to block all the
+
+                 "annoying" songs.
+
+    Blocked songs and data tracks are marked with special sign on
+
+    the right side of the panel frame.
+
+### New Topic ### - 6 - Disk registration and deleting wizards.
+Disk registration and deleting wizards:
+
+ Registration wizard ( activated by Alt+R ) allows Mashitup to
+
+   recognize the current disk next time you insert it.
+
+   This wizard opens window where you can edit songs names, disk
+
+   genre, e.t.c.  This information will be stored on your hard
+
+   disk and restored when Mashitup will recognize that disk.
+
+
+ Deleting wizard ( activated by Alt+D ) allows you to delete
+
+   unnecessary disk tags. Use "Delete" key to mark tags which
+
+   will be deleted right after leaving the wizard.
+
+   Deleted disk will be unknown to Mashitup in the future.
+
+
+ ! ATTENTION !
+
+ Disk information file and its index are maintained and backuped by
+
+ Mashitup, There you are asked NOT to change them manually.
+
+ In case of "Ooops... What have I done!.." use back up files from
+
+ data\backup\ directory.
+
+### New Topic ### - 7 - Mouse functions.
+Mouse functions:
+
+  Mashitup supports 3 button mouse, though center button has no
+
+  actual usage.
+
+  1. Mouse allows you to select all the bar options and press all
+
+     the buttons using the left mouse button.
+
+  2. In equalizer you can set or drag the modifiers.
+
+  3. In remote control panel time direction may be changed, between
+
+     elapsed and remaining time, with both right and left buttons.
+
+  4. Click with left mouse button inside the song progress bar
+
+     makes the song jump to appropriate place.
+
+  5. In sogns panel songs can be selected by left button or
+
+     blocked/unblocked with right button.
+
+     For blocking group of songs press the right button and drag
+
+     the mouse over target songs.
+
+  6. Mouse left click on the upper bar activates under water
+
+     screen saver. Press escape to quit it.
+
+### New Topic ### - 8 - Mashitup Credits.
+
+Mashitup was designed as 5 points final project, coded and compiled
+
+in "Borland C 3.0".
+
+Presented in "Bosmat" technological college, Israel.
+
+
+Credits:
+
+              Programmer and designer - Shmulyan Daniel.
+
+
+Special thanks to:
+
+
+              Prime guide        - Sir Dobrovkin Josef.
+
+              Secondary guide    - Mrs. Lea Shahar.
+
+              Projects director  - Sir Pincashvili Moti.
+
+
+              Beta tester        - Sir Sandero Arik (J).
+
+                                 - Sir Hershkovits Elad.
+
+                                 - Sir Kosinov Philip.
+
+<< End of file >>.
